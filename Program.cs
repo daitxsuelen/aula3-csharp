@@ -13,3 +13,8 @@ int subtracao = x - y;
 int multiplicacao = x * y;
 
 Console.WriteLine($"O valor da divisão entre {x} e {y} é igual a: {divisao}");
+
+Console.WriteLine("O valor da soma entre {0} e {1} é igual a: {2}", x, y, soma);
+Console.WriteLine("O valor da subtracao entre {0} e {1} é igual a: {2}", x, y, subtracao);
+
+Console.WriteLine("O valor da multiplicacao é igual a:" + multiplicacao + " parabens");
