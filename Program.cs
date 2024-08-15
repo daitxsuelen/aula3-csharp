@@ -1,4 +1,5 @@
-﻿int x, y;
+﻿int x;
+int y;
 double divisao;
 
 Console.WriteLine("Digite o valor de X:");
@@ -7,5 +8,8 @@ Console.WriteLine("Digite o valor de y");
 y = Convert.ToInt32(Console.ReadLine());
 
 divisao = (double) x / y;
+int soma = x + y;
+int subtracao = x - y;
+int multiplicacao = x * y;
 
 Console.WriteLine($"O valor da divisão entre {x} e {y} é igual a: {divisao}");
